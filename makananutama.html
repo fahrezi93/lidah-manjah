@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Menu Makanan Utama Lidah Manjah</title>
+   <link rel="icon" href="images/logo.png">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+   <link rel="stylesheet" href="css/style.css">
+   <script src="js/script.js" defer></script>
+
+</head>
+<body>
+   <!-- 1.menu utama
+      rendang
+      mie aceh
+      gulai ikan patin
+      gudeg
+      soto lamongan
+      ayam betutu
+      sate madura
+      gado-gado
+      nasi goreng
+      bakso -->
+
+      <header>
+         <input type="checkbox" name="" id="toggler">
+         <label for="toggler" class="fas fa-bars"></label>
+         <a href="#" class="logo"> <span>Lidah Manjah</span></a>  
+         <div class="menu-bar">
+             <ul>
+                 <li class="active"><i class="fa fa-home"></i><a href="Beranda.html">Home</a></li>
+                 <li><a href="#"><i class="fa fa-sort-desc"></i>Menu</a>
+                 <div class="sub-menu">
+                     <ul>
+                         <li><a href="makananutama.html">Makanan Utama</a></li>
+                         <li><a href="makananringan.html">Makanan Ringan</a></li>
+                         <li><a href="minuman.html">Minuman</a></li>
+                     </ul>
+                 </div></li>
+                 <li><a href="#about"><i class="fa fa-home"></i>About</a></li>
+                 <li><a href="#review"><i class="fa fa-comments"></i>Review</a></li>
+                 <li><a href="#contact"><i class="fa fa-phone"></i>Contact</a></li>
+             </ul>
+         </div>
+ 
+             <div class="icons">
+                 <a href="#" class="fas fa-heart"></a>
+                 <a href="#" class="fas fa-shopping-cart"></a>
+                 <a href="Login.html" class="fas fa-user"></a>
+             </div>
+     </header>
+
+<div class="container">
+
+   <h3 class="title">Menu Makanan Utama</h3>
+
+   <div class="products-container">
+
+      <div class="product" data-name="p-1">
+         <img src="images/rendang.jpg" alt="">
+         <h3>Rendang</h3>
+         <div class="price">Rp 30.000</div>
+      </div>
+
+      <div class="product" data-name="p-2">
+         <img src="images/mie aceh.jpg" alt="">
+         <h3>Mie Aceh</h3>
+         <div class="price">Rp 15.000</div>
+      </div>
+
+      <div class="product" data-name="p-3">
+         <img src="images/gulai patin.jpg" alt="">
+         <h3>Gulai Ikan Patin</h3>
+         <div class="price">Rp 17.000</div>
+      </div>
+
+      <div class="product" data-name="p-4">
+         <img src="images/gudeg.jpg" alt="">
+         <h3>Gudeg</h3>
+         <div class="price">Rp 12.000</div>
+      </div>
+
+      <div class="product" data-name="p-5">
+         <img src="images/soto lamongan.jpg" alt="">
+         <h3>Soto Lamongan</h3>
+         <div class="price">Rp 15.000</div>
+      </div>
+
+      <div class="product" data-name="p-6">
+         <img src="images/ayam betutu.jpg" alt="">
+         <h3>Ayam Betutu</h3>
+         <div class="price">Rp 18.000</div>
+      </div>
+
+      <div class="product" data-name="p-7">
+         <img src="images/sate.jpg" alt="">
+         <h3>Sate Madura</h3>
+         <div class="price">Rp 26.000</div>
+      </div>
+
+      <div class="product" data-name="p-8">
+         <img src="images/gado.jpg" alt="">
+         <h3>Gado-gado</h3>
+         <div class="price">Rp 15.000</div>
+      </div>
+
+      <div class="product" data-name="p-9">
+         <img src="images/nasi goreng.jpg" alt="">
+         <h3>Nasi Goreng</h3>
+         <div class="price">Rp 16.000</div>
+      </div>
+
+      <div class="product" data-name="p-10">
+         <img src="images/bakso.jpg" alt="">
+         <h3>Bakso</h3>
+         <div class="price">Rp 14.000</div>
+      </div>
+
+      <div class="product" data-name="p-11">
+         <img src="images/kepiting.jpg" alt="">
+         <h3>Kepiting Saos</h3>
+         <div class="price">Rp 55.000</div>
+      </div>
+
+      <div class="product" data-name="p-12">
+         <img src="images/gurame.jpg" alt="">
+         <h3>Gurame Goreng</h3>
+         <div class="price">Rp 45.000</div>
+      </div>
+   </div>
+
+</div>
+
+<div class="products-preview">
+
+   <div class="preview" data-target="p-1">
+      <i class="fas fa-times"></i>
+      <img src="images/rendang.jpg" alt="">
+      <h3>Rendang</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star-half-alt"></i>
+         <span>( 250 )</span>
+      </div>
+      <br>
+            <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p> -->
+      <div class="price">Rp 30.000</div>
+      <label class="container">Paket Nasi
+         <input type="radio" checked="checked" name="radio">
+         <span class="checkmark"></span>
+       </label>
+       <label class="container">Tanpa Nasi
+         <input type="radio" name="radio">
+         <span class="checkmark"></span>
+       </label>
+      <div class="buttons">
+         <a href="#" class="buy">Beli sekarang</a>
+         <a href="#" class="cart">Tambahkan</a>
+      </div>
+   </div>
+
+   <div class="preview" data-target="p-2">
+      <i class="fas fa-times"></i>
+      <img src="images/mie aceh.jpg" alt="">
+      <h3>Mie Aceh</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star-half-alt"></i>
+         <span>( 250 )</span>
+      </div>
+      <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p> -->
+      <div class="price">Rp 15.000</div>
+      <label class="container">Paket Nasi
+         <input type="radio" checked="checked" name="radio">
+         <span class="checkmark"></span>
+       </label>
+       <label class="container">Tanpa Nasi
+         <input type="radio" name="radio">
+         <span class="checkmark"></span>
+       </label>
+      <div class="buttons">
+         <a href="#" class="buy">Beli sekarang</a>
+         <a href="#" class="cart">Tambahkan</a>
+      </div>
+   </div>
+
+   <div class="preview" data-target="p-3">
+      <i class="fas fa-times"></i>
+      <img src="images/gulai patin.jpg" alt="">
+      <h3>Gulai Ikan Patin</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star-half-alt"></i>
+         <span>( 250 )</span>
+      </div>
+      <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p> -->
+      <div class="price">Rp 17.000</div>
+      <label class="container">Paket Nasi
+         <input type="radio" checked="checked" name="radio">
+         <span class="checkmark"></span>
+       </label>
+       <label class="container">Tanpa Nasi
+         <input type="radio" name="radio">
+         <span class="checkmark"></span>
+       </label>
+      <div class="buttons">
+         <a href="#" class="buy">Beli sekarang</a>
+         <a href="#" class="cart">Tambahkan</a>
+      </div>
+   </div>
+
+   <div class="preview" data-target="p-4">
+      <i class="fas fa-times"></i>
+      <img src="images/gudeg.jpg" alt="">
+      <h3>Gudeg</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star-half-alt"></i>
+         <span>( 250 )</span>
+      </div>
+      <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p> -->
+      <div class="price">Rp 12.000</div>
+      <label class="container">Paket Nasi
+         <input type="radio" checked="checked" name="radio">
+         <span class="checkmark"></span>
+       </label>
+       <label class="container">Tanpa Nasi
+         <input type="radio" name="radio">
+         <span class="checkmark"></span>
+       </label>
+      <div class="buttons">
+         <a href="#" class="buy">Beli sekarang</a>
+         <a href="#" class="cart">Tambahkan</a>
+      </div>
+   </div>
+
+   <div class="preview" data-target="p-5">
+      <i class="fas fa-times"></i>
+      <img src="images/soto lamongan.jpg" alt="">
+      <h3>Soto Lammongan</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star-half-alt"></i>
+         <span>( 250 )</span>
+      </div>
+      <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p> -->
+      <div class="price">Rp 15.000</div>
+      <label class="container">Paket Nasi
+         <input type="radio" checked="checked" name="radio">
+         <span class="checkmark"></span>
+       </label>
+       <label class="container">Tanpa Nasi
+         <input type="radio" name="radio">
+         <span class="checkmark"></span>
+       </label>
+      <div class="buttons">
+         <a href="#" class="buy">Beli sekarang</a>
+         <a href="#" class="cart">Tambahkan</a>
+      </div>
+   </div>
+
+   <div class="preview" data-target="p-6">
+      <i class="fas fa-times"></i>
+      <img src="images/ayam betutu.jpg" alt="">
+      <h3>Ayam Betutu</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star-half-alt"></i>
+         <span>( 250 )</span>
+      </div>
+      <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p> -->
+      <div class="price">Rp 18.000</div>
+      <label class="container">Paket Nasi
+         <input type="radio" checked="checked" name="radio">
+         <span class="checkmark"></span>
+       </label>
+       <label class="container">Tanpa Nasi
+         <input type="radio" name="radio">
+         <span class="checkmark"></span>
+       </label>
+      <div class="buttons">
+         <a href="#" class="buy">Beli sekarang</a>
+         <a href="#" class="cart">Tambahkan</a>
+      </div>
+   </div>
+
+   <div class="preview" data-target="p-7">
+      <i class="fas fa-times"></i>
+      <img src="images/sate.jpg" alt="">
+      <h3>Sate Madura</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star-half-alt"></i>
+         <span>( 250 )</span>
+      </div>
+      <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p> -->
+      <div class="price">Rp 26.000</div>
+      <label class="container">Paket Nasi
+         <input type="radio" checked="checked" name="radio">
+         <span class="checkmark"></span>
+       </label>
+       <label class="container">Paket Lontong
+         <input type="radio" name="radio">
+         <span class="checkmark"></span>
+       </label>
+      <div class="buttons">
+         <a href="#" class="buy">Beli sekarang</a>
+         <a href="#" class="cart">Tambahkan</a>
+      </div>
+   </div>
+
+   <div class="preview" data-target="p-8">
+      <i class="fas fa-times"></i>
+      <img src="images/gado.jpg" alt="">
+      <h3>Gado-gado</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star-half-alt"></i>
+         <span>( 250 )</span>
+      </div>
+      <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p> -->
+      <div class="price">Rp 15.000</div>
+      <label class="container">Paket Nasi
+         <input type="radio" checked="checked" name="radio">
+         <span class="checkmark"></span>
+       </label>
+       <label class="container">Paket Lontong
+         <input type="radio" name="radio">
+         <span class="checkmark"></span>
+       </label>
+      <div class="buttons">
+         <a href="#" class="buy">Beli sekarang</a>
+         <a href="#" class="cart">Tambahkan</a>
+      </div>
+   </div>
+
+   <div class="preview" data-target="p-9">
+      <i class="fas fa-times"></i>
+      <img src="images/nasi goreng.jpg" alt="">
+      <h3>Nasi Goreng</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star-half-alt"></i>
+         <span>( 250 )</span>
+      </div>
+      <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p> -->
+      <div class="price">Rp 16.000</div>
+      <div class="buttons">
+         <a href="#" class="buy">Beli sekarang</a>
+         <a href="#" class="cart">Tambahkan</a>
+      </div>
+   </div>
+
+   <div class="preview" data-target="p-10">
+      <i class="fas fa-times"></i>
+      <img src="images/bakso.jpg" alt="">
+      <h3>Bakso</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star-half-alt"></i>
+         <span>( 250 )</span>
+      </div>
+      <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p> -->
+      <div class="price">Rp 14.000</div>
+      <div class="buttons">
+         <a href="#" class="buy">Beli sekarang</a>
+         <a href="#" class="cart">Tambahkan</a>
+      </div>
+   </div>
+
+
+   <div class="preview" data-target="p-11">
+      <i class="fas fa-times"></i>
+      <img src="images/kepiting.jpg" alt="">
+      <h3>Kepiting Saos</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star-half-alt"></i>
+         <span>( 250 )</span>
+      </div>
+      <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p> -->
+      <div class="price">Rp 55.000</div>
+      <label class="container">Paket Nasi
+         <input type="radio" checked="checked" name="radio">
+         <span class="checkmark"></span>
+       </label>
+       <label class="container">Tanpa Nasi
+         <input type="radio" name="radio">
+         <span class="checkmark"></span>
+       </label>
+      <div class="buttons">
+         <a href="#" class="buy">Beli sekarang</a>
+         <a href="#" class="cart">Tambahkan</a>
+      </div>
+   </div>
+
+   <div class="preview" data-target="p-12">
+      <i class="fas fa-times"></i>
+      <img src="images/gurame.jpg" alt="">
+      <h3>Gurame Goreng</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star-half-alt"></i>
+         <span>( 250 )</span>
+      </div>
+      <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p> -->
+      <div class="price">Rp 45.000</div>
+      <label class="container">Paket Nasi
+         <input type="radio" checked="checked" name="radio">
+         <span class="checkmark"></span>
+       </label>
+       <label class="container">Tanpa Nasi
+         <input type="radio" name="radio">
+         <span class="checkmark"></span>
+       </label>
+      <div class="buttons">
+         <a href="#" class="buy">Beli sekarang</a>
+
+         <a href="#" class="cart">Tambahkan</a>
+      </div>
+   </div>
+</div>
+<div class="jarak"></div>
+<footer>
+
+   <div class="box-container">
+       <div class="box">
+           <h3>Lokasi Kami</h3>
+           <a href="#">Bukit Siguntang</a>
+           <a href="#">Plaju</a>
+           <a href="#">Indralaya</a>
+           <a href="#">Sekip Ujung</a>
+           <a href="#">Medan</a>
+           <a href="#">Bekasi</a>
+           <a href="#">Cirebon</a>
+           <a href="#">Banyuasin</a>
+       </div>
+
+       <div class="box">
+           <h3>Info Kontak</h3>
+           <a href="#">0813-6889-9869</a>
+           <a href="#">0858-7238-1791</a>
+           <a href="#">0831-9056-4872</a>
+           <a href="#">dapurlidahmanjah@gmail.com</a>
+       </div>
+
+       <div class="box">
+           <h3>Follow kami yuk!</h3>
+           <a href="#">Instagram</a>
+           <a href="#">Facebook</a>
+           <a href="#">Twitch</a>
+       </div>
+   </div>
+   <div class="credit"> copyright @ 2023 by <span>KELOMPOK 10</span></div>
+
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="js/JS Manjah.js"></script>
+
+</body>
+</html>
